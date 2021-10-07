@@ -6,7 +6,7 @@
 <meta charset="ISO-8859-1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="estilo.css">
-<title>Tienda: Usuarios</title>
+<title>Tienda: Proveedores</title>
 </head>
 <body>
 <header class="header">
@@ -15,9 +15,9 @@
 	</header>
 	<div class="nav_menu">
 		<ul>
-			<li class="selected" onclick="document.location='usuarios.jsp'" title="usuarios.jsp"><b>Usuarios</b></li>
+			<li onclick="document.location='usuarios.jsp'" title="usuarios.jsp">Usuarios</li>
 			<li onclick="document.location='clientes.jsp'" title="clientes.jsp">Clientes</li>
-			<li onclick="document.location='proveedores.jsp'" title="proveedores.jsp">Proveedores</li>
+			<li class="selected" onclick="document.location='proveedores.jsp'" title="proveedores.jsp"><b>Proveedores</b></li>
 			<li onclick="document.location='productos.jsp'" title="productos.jsp">Productos</li>
 			<li onclick="document.location='ventas.jsp'" title="ventas.jsp">Ventas</li>
 			<li onclick="document.location='reportes.jsp'" title="reportes.jsp">Reportes</li>
@@ -28,11 +28,11 @@
 		<div class="usuarios_container">
 		<ul class="main_box">
 			<li><h2></h2></li>
-			<li>Cédula<input type="text" name="Cedula_Usuario"></li>
-			<li>Nombre Completo<input type="text" name="Nombre_Completo_Usuario"></li>
-			<li>Correo Electrónico<input type="text" name="Correo Electronico_Usuario"></li>
-			<li>Usuario <input type="text" name="Usuario"></li>
-			<li>Contraseña <input type="text" name="Contraseña"></li>
+			<li>NIT<input type="text" name="NITProveedores"></li>
+			<li>Nombre Proveedor<input type="text" name="Nombre_Proveedor"></li>
+			<li>Dirección<input type="text" name="Direccion_Proveedor"></li>
+			<li>Teléfono <input type="text" name="Telefono_Proveedor"></li>
+			<li>Ciudad <input type="text" name="Ciudad_Proveedor"></li>
 
 		<ul class="login_buttons"></ul>
 			<li><input type="button" name="Consultar" value="Consultar" onclick="document.location='menu.jsp'"></li>
