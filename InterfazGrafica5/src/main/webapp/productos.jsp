@@ -23,12 +23,13 @@
 			<li onclick="document.location='reportes.jsp'" title="reportes.jsp">Reportes</li>
 		</ul>
 	</div>
-	<form class="usuarios_container" action="">
+	<form class="usuarios_container" action="Buscar_Producto" method="get">
 			<ul class="main_box">Nombre del Archivo<input type="text" name="Cedula_Usuario">
+			<!--Botones  -->
 			<li><input class="login_buttons" type="button" name="Examinar_Producto" value="Examinar"></li>
 			<li><input class="login_buttons" type="button" name="Cargar_Producto" value="Cargar"></li>
 			</ul>
 	</form>
-
+<!-- PENDIENTE REVISAR LAS DEPENDENCIAS Y ARREGLAR EL CSS CON OTSTRAP, TAMBIÉN EL CÓMO CONECTAR BACKEND CON FRONTEND Y REVISAR LAS VARIABLES -->
 </body>
 </html>

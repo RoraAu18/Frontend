@@ -24,8 +24,8 @@
 		</ul>
 	</div>
 	<!--Usuarios container -->
-	<div>
 		<div class="usuarios_container">
+		<form class="usuarios_container" action="Consultar_Proveedor" method="get">
 		<ul class="main_box">
 			<li><h2></h2></li>
 			<li>NIT<input type="text" name="NITProveedores"></li>
@@ -33,14 +33,15 @@
 			<li>Dirección<input type="text" name="Direccion_Proveedor"></li>
 			<li>Teléfono <input type="text" name="Telefono_Proveedor"></li>
 			<li>Ciudad <input type="text" name="Ciudad_Proveedor"></li>
-
-		<ul class="login_buttons"></ul>
+			
+			<!--Botones  -->
 			<li><input type="button" name="Consultar" value="Consultar" onclick="document.location='menu.jsp'"></li>
 			<li><input type="button" name="Crear" value="Crear"></li>
 			<li><input type="button" name="Actualizar" value="Actualizar"></li>
 			<li><input type="button" name="Borrar" value="Borrar"></li>
 
 		</ul>
+	</form>	
 	</div>
 </body>
 </html>
