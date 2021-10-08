@@ -14,7 +14,6 @@
 		<H3>Tienda Genérica</H3>
 	</header>
 	<div class="nav_menu">
-
 		<ul>
 			<li onclick="document.location='usuarios.jsp'" title="usuarios.jsp">Usuarios</li>
 			<li class="selected" onclick="document.location='clientes.jsp'" title="clientes.jsp"><b>Clientes</b></li>

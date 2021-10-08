@@ -25,6 +25,7 @@
 	</div>
 	<form class="usuarios_container" action="Buscar_Producto" method="get">
 			<ul class="main_box">Nombre del Archivo<input type="text" name="Cedula_Usuario">
+			
 			<!--Botones  -->
 			<li><input class="login_buttons" type="button" name="Examinar_Producto" value="Examinar"></li>
 			<li><input class="login_buttons" type="button" name="Cargar_Producto" value="Cargar"></li>

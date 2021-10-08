@@ -39,7 +39,6 @@
 			<li><input type="button" name="Crear" value="Crear"></li>
 			<li><input type="button" name="Actualizar" value="Actualizar"></li>
 			<li><input type="button" name="Borrar" value="Borrar"></li>
-
 		</ul>
 	</form>	
 	</div>
